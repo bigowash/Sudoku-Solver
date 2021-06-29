@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<header>
+    <h1>Sudoku Solver</h1>
+    <h2>For sudoku 81 character strings: <a href="http://forum.enjoysudoku.com/patterns-game-results-t6291.html" target="_blank">click here</a></h2>
+    <div id="setup-game">
+        <div id="game-string">
+            <input type="text" id="sudoku-string" name="sudoku-string"
+                placeholder="Enter 81 character string of sudoku...">
+            <input type="text" id="null-character" name="null-character"
+                placeholder="Enter the null character used (i.e. 0)">
+        </div>
+        <div id="button-area">
+            <button id="start-btn" type="button">Start Game</button>
+
+        </div>
+    </div>
+</header>
+
+<body>
+    <div id="game">
+        <div id="board">
+
+        </div>
+        <div id="solving-options" class="hidden">
+            <div id="option-0">
+                <button type="option-0" title="Displays all options on each cell">Show All Options</button>
+
+            </div>
+            <div id="option-1">
+                <button type="option-1" title="Changes cell values if a number can only be in one place in a box, row, or col">Single Option</button>
+            </div>
+            <div id="option-2">
+                <button type="option-2" title="Checks if two cells are occupied by only the same two numbers, if found: removes the two numbers from the rest of the box/row/col">Obvious Pairs</button>
+            </div>
+            <div id="option-3">
+                <button type="option-3" title="Checks if three cells are occupied by only the same three numbers, if found: removes the two numbers from the rest of the box/row/col">Obvious Triplets</button>
+            </div>
+            <div id="option-4">
+                <button type="option-4"  title="Checks for pairs, if found: removes other values from the cells">Naked and Hidden Pairs</button>
+            </div>
+            <div id="option-5">
+                <button type="option-5" title="Checks for triplets, if found: removes other values from the cells">Naked and Hidden Triplets</button>
+            </div>
+            <div id="option-6">
+                <button type="option-6" title="Checks for in-line pairs, if found: removes from the line">Remove from line</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+    <!-- <script type="module" src="./sudoku.js"></script> -->
+    <!-- <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="./scripts/board.js"></script> -->
+</body>
+<footer>
+    <p>Made by Theo Bui - Computing 2 Assignment</p>
+</footer>
+
+</html>

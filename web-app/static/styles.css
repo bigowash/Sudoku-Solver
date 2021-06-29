@@ -1,0 +1,185 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFFACC;
+}
+
+.hidden {
+    display: none;
+}
+
+body.dark {
+    background-color: #333333;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 45pt;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: lighter;
+}
+
+#setup-game {
+    display: flex;
+    justify-content: center;
+}
+
+#setup-game > * {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    margin-right: 25px;
+}
+
+#sudoku-string {
+    width: 500px;
+}
+
+#null-character {
+    width: 170px;
+}
+
+button {
+    justify-self: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+}
+
+#solving-options {
+    align-self: center;
+
+}
+
+#solving-options > div {
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px
+}
+
+.uncertain {
+    /* width: 33.3%;
+    height: 33.3%; */
+    display: flex;
+}
+
+.one {
+    font-size: 12pt;
+    text-align: left;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.two {
+    /* upper left */
+    font-size: 12pt;
+    text-align: middle;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.three {
+    /* upper left */
+    font-size: 12pt;
+    text-align: right;
+    vertical-align: top;
+    margin: 0px;
+}
+    
+.four {
+    /* upper left */
+    font-size: 12pt;
+    text-align: left;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.five {
+    font-size: 12pt;
+    text-align: middle;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.six {
+    font-size: 12pt;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.seven {
+    font-size: 12pt;
+    text-align: left;
+    vertical-align: bottom;
+    margin: 0px;
+}
+
+.eight {
+    font-size: 12pt;
+    text-align: middle;
+    vertical-align: bottom;
+    margin: 0px;
+}
+
+.nine {
+    font-size: 12pt;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.tile {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px;
+    font-size: 30pt;
+}
+
+/* p.selected {
+    background-color: lightblue;
+} */
+
+.rightBorder {
+    border-right: 4px solid black;
+}
+
+.bottomBorder {
+    border-bottom: 4px solid black;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+}
