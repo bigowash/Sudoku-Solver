@@ -4,10 +4,6 @@ This repository is for the submission of your **Computing 2: Applications** cour
 # Setup
 I used Virtual Studio Code Editor to host the server. Opening this folder, I ran the static folder using the launch.json file included in the repository. This hosts a server with a url of http://localhost:8080
 
-# Computing 2 Submission Proforma
-
-For each section, write a maximum of 200 words.
-
 ## Brief
 *State what you set out to acomplish with this web app.*
 This app takes an 81-character sudoku strings and solves it using various techniques that the user can select. Each time a button is pressed, the board is simplified and updated without having to reload the page. A link is provided to find 81 character strings easily.
