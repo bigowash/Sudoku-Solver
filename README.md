@@ -1,6 +1,27 @@
 # Project
 This repository is for the submission of your **Computing 2: Applications** coursework.
 
+# Appearance
+
+The process of solving a sudoku with the web app:
+
+### Home Screen
+![Home Screen](images/1.png)
+### Start Game
+![Start Game](images/2.png)
+### Show Options
+![Show Options](images/3.png)
+### Single Option
+![Single Option](images/4.png)
+### Naked and Hidden Pairs
+![Naked and Hidden Pairs](images/5.png)
+### Remove From Line
+![Remove From Line](images/6.png)
+### Single Option
+![Single Option](images/7.png)
+### End Result
+![End Result](images/8.png)
+
 # Setup
 I used Virtual Studio Code Editor to host the server. Opening this folder, I ran the static folder using the launch.json file included in the repository. This hosts a server with a url of http://localhost:8080
 
