@@ -1,5 +1,5 @@
-# Project
-This repository is for the submission of your **Computing 2: Applications** coursework.
+# Project - Sudoku Solver
+Using my sudoku solving experience, I developed various methods to solve a sudoku "like a human"
 
 # Appearance
 
